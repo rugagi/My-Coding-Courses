@@ -1,21 +1,47 @@
-*{
-    padding-left: 20px;
-}
+ 
+ .header {
+     background-color: darkgray;
+     height: 60px;
+     text-align: center;
+     padding: 5px;
+     color: black;
+ }
+ .main_menue{
+     font-size: large;
+     font-weight: bold;
+     background-color: cornsilk;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     
+ }
 
-h1{
+ .main_menue a{
+     text-decoration: none;
+ }
+
+ .main_menue a:hover{
     text-decoration: underline;
-    text-align: center;
-}
-table, th, td{
-    border: 1px solid blue;
-    padding: 0;
+    color: black;
 }
 
-#button{
-    background-color: black;
-    color: white;
+.main_menue a:active{
+   
+    color: blue;
 }
-
-form {
-    padding: 0px;
+.section {
+    display: flex;
+    
+}
+.section .side{
+    background-color: burlywood;
+    flex: 1;
+}
+.section .article{
+    background-color:cadetblue;
+    flex: 3;
+}
+.section > .side a{
+    display: block;
 }
